@@ -1,9 +1,8 @@
-# fear learning lesson plans
-
-## D1 is a single cell model showing basic plasticity ideas
-
-## D2 is to show feedforward inhibition *WORK IN PROGRESS*
-
-## D3 is to show dendrite gating *WORK IN PROGRESS*
-
-## D4 is a 12 cell model of the amygdala
+# Fear Learning Lesson Plans
+#### Developed in the Neural Engineering Laboratory at the University of Missouri by Gregory Glickert
+### Lesson 1 - Introduction to Fear
+### Lesson 2 - Introduction to Tone and Shock
+### Lesson 3 - Calcium learning
+### Lesson 4 - Putting everything together
+### Lesson 5 - Introduction to Neural circuits
+### Lesson 6 - 12 Cell 
