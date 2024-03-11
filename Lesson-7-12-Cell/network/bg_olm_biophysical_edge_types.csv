@@ -1,0 +1,2 @@
+edge_type_id target_query source_query distance_range syn_weight model_template dynamics_params delay
+114 pop_name=='OLM' * "[-10000, 10000]" 1.0 bg2PN BG2OLM.json 0.1
