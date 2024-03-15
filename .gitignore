@@ -3,7 +3,9 @@
 
 # Neuron stuff
 x86_64/
-.dll
+*.dll
+*.c
+*.o
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
