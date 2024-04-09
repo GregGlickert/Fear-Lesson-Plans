@@ -1,0 +1,9 @@
+edge_type_id target_query source_query distance_range target_sections syn_weight model_template dynamics_params delay
+104 "pop_name=='['PyrA', 'PyrC']'" pop_name=='PyrA' "[-10000, 10000]" NULL 1.0 pyr2pyr PN2PN.json 0.1
+105 "pop_name=='['PyrA', 'PyrC']'" pop_name=='PyrC' "[-10000, 10000]" NULL 1.0 pyr2pyr PN2PN.json 0.1
+106 pop_name=='OLM' "pop_name=='['PyrA', 'PyrC']'" "[-10000, 10000]" NULL 1 pyr2int PN2SOM.json 0.1
+107 pop_name=='PV' "pop_name=='['PyrA', 'PyrC']'" "[-10000, 10000]" NULL 1.0 pyr2int PN2PV.json 0.1
+108 pop_name=='PV' pop_name=='PV' "[-10000, 10000]" ['somatic'] 1.0 int2int PV2PV.json 0.1
+109 pop_name=='OLM' pop_name=='PV' "[-10000, 10000]" ['somatic'] 1.0 int2int PV2SOM.json 0.1
+110 "pop_name=='['PyrA', 'PyrC']'" pop_name=='PV' "[-10000, 10000]" ['somatic'] 1.0 int2pyr PV2PN.json 0.1
+111 "pop_name=='['PyrA', 'PyrC']'" pop_name=='OLM' "[-10000, 10000]" NULL 1.0 int2pyr SOM2PN.json 0.1

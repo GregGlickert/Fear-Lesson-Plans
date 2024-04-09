@@ -1,0 +1,3 @@
+edge_type_id target_query source_query distance_range syn_weight model_template dynamics_params delay
+102 "pop_name=='['PyrA', 'PyrC']'" * "[-10000, 10000]" 1.0 tone2pyr tone2PN.json 0.1
+103 pop_name=='PV' * "[-10000, 10000]" 1.0 tone2pyr tone2INT.json 0.1
